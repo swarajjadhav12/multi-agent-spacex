@@ -1,0 +1,23 @@
+[
+    {
+      "goal": "Find the next SpaceX launch and check the weather at the launch location.",
+      "expected_keys": ["name", "launchpad", "date_utc", "weather"]
+    },
+    {
+      "goal": "Determine if the next SpaceX mission will be delayed due to weather.",
+      "expected_keys": ["name", "launchpad", "date_utc", "weather", "delay_analysis"]
+    },
+    {
+      "goal": "Check weather at the SpaceX launch site only.",
+      "expected_keys": ["name", "launchpad", "date_utc", "weather"]
+    },
+    {
+      "goal": "Tell me about the next SpaceX launch.",
+      "expected_keys": ["name", "launchpad", "date_utc"]
+    },
+    {
+      "goal": "Is there any delay expected for the next SpaceX launch?",
+      "expected_keys": ["name", "launchpad", "date_utc", "weather", "delay_analysis"]
+    }
+  ]
+  
